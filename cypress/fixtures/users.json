@@ -1,0 +1,31 @@
+{
+    "login": {
+        "name": "Sarah robert",
+        "email": "sarah@gmail.com",
+        "password": "Teste123"
+    },
+    "inv_password": {
+        "email": "erickbiosk12@gmail.com",
+        "password": "Teste1236"
+    },
+    "email_404": {
+        "email": "404@gmail.com",
+        "password": "Teste1236"
+    },
+    "create": {
+        "name": "Super Man2",
+        "email": "Superman2@gmail.com",
+        "password": "Abc123.."
+    },
+    "duplicate_email": {
+        "name": "Super Man",
+        "email": "Superman@gmail.com",
+         "password": "Abc123.."
+    },
+    "required": {
+        "name": "Rargot Robbie",
+        "email": "sargottt@gmail.com",
+        "password": "Abc123.."
+    }
+
+}

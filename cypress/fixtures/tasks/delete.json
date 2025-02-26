@@ -1,0 +1,28 @@
+{
+    "remove": {
+        "user": {
+            "name": "Peter Park",
+            "email": "park@stark.com",
+            "password": "Teste123"
+        },
+        "task": {
+            "name": "Costruir o lança teia",
+            "tags": [
+            "Reator",
+            "teia",
+            "Faz tudo"
+	        ]
+        }
+    },
+    "not_found": {
+        "user": {
+            "name": "Bruce Wener",
+            "email": "bruce@bast.com",
+            "password": "Teste123"
+        },
+        "task": {
+            "name": "bat carpa"  
+        }
+    }
+
+}

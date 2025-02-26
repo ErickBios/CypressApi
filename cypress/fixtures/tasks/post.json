@@ -1,0 +1,35 @@
+{
+    "create":
+    {
+        "user": 
+        {
+            "name": "Leo Silva de Oliveira",
+            "email": "leo_bode@gmail.com",
+            "password": "Teste123"
+        },
+        "task": 
+        {
+            "name": "Nova tarefa",
+            "tags": 
+            [   
+                "BBB",
+                "Bradesco",
+                "Next"
+            ]
+        }
+    },
+    "dup":
+    {
+        "user": 
+        {
+            "name": "Jean Grey${fileBasenameNoExtension}",
+            "email": "fenix@xmen.com",
+            "password": "Teste123"
+        },
+        "task": 
+        {
+            "name": "Nova tarefa"
+            
+        }
+    }
+}

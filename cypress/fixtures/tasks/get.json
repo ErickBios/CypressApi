@@ -1,0 +1,59 @@
+{
+    "list": {
+        "user": {
+            "name": "Logan",
+            "email": "arma-x@xman.com",
+            "password": "Teste123"
+        },
+        "tasks": [
+            {
+                "name": "Estud4r Javascripe",
+                "tags": [
+                    "QA-bios"
+                ]
+            },
+            {
+                "name": "Estud4r Typescript",
+                "tags": [
+                    "typescript",
+                    "ts"
+                ]
+            },
+            {
+                "name": "Estud4r Cypress",
+                "tags": [
+                    "cypress",
+                    "Javascript",
+                    "nodejs"
+                ]
+            }
+        ]
+    },
+
+    "unique": {
+        "user": {
+            "name": "Steve Roges",
+            "email": "capitao@america.com",
+            "password": "Teste123"
+        },
+        "task": {
+            "name": "Recuperar o meu esculdo",
+            "tags": [
+            "Vibranio",
+            "Teperatura",
+            "Forja"
+	        ]
+        }
+    },
+    "not_found": {
+        "user": {
+            "name": "Bruce Banner",
+            "email": "hulk@bast.com",
+            "password": "Teste123"
+        },
+        "task": {
+            "name": "Cuidar do Hulk Red"  
+        }
+    }
+
+}

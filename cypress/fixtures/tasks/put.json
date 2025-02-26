@@ -1,0 +1,28 @@
+{
+    "update": {
+        "user": {            
+            "name": "Bill",
+            "email": "sorf@amil.com",
+            "password": "Abc123.."
+        },
+        "task": {
+            "name": "Melhorar mas ainda",
+            "tags": [
+            "Test sorf",
+		    "visual",
+		    "Performa"
+	        ]
+        }
+    },
+    "not_found": {
+        "user": {
+            "name": "Garo Wener",
+            "email": "garo@bast.com",
+            "password": "Abc123.."
+        },
+        "task": {
+            "name": "God"  
+        }
+    }
+
+}
