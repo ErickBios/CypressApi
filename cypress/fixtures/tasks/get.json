@@ -1,15 +1,15 @@
 {
     "list": {
         "user": {
-            "name": "Logan",
-            "email": "arma-x@xman.com",
-            "password": "Teste123"
+            "name": "Charles Xavier",
+            "email": "xavier@xmen.com",
+            "password": "pwd123"
         },
         "tasks": [
             {
-                "name": "Estud4r Javascripe",
+                "name": "Estud4r Javascript",
                 "tags": [
-                    "QA-bios"
+                    "qax"
                 ]
             },
             {
@@ -23,37 +23,35 @@
                 "name": "Estud4r Cypress",
                 "tags": [
                     "cypress",
-                    "Javascript",
+                    "javascript",
                     "nodejs"
                 ]
             }
         ]
     },
-
     "unique": {
         "user": {
-            "name": "Steve Roges",
-            "email": "capitao@america.com",
-            "password": "Teste123"
+            "name": "Tony Stark",
+            "email": "tony@stark.com",
+            "password": "pwd123"
         },
         "task": {
-            "name": "Recuperar o meu esculdo",
+            "name": "Construir a Mark87",
             "tags": [
-            "Vibranio",
-            "Teperatura",
-            "Forja"
-	        ]
+                "ark",
+                "nanotech",
+                "friday"
+            ]
         }
     },
     "not_found": {
         "user": {
             "name": "Bruce Banner",
-            "email": "hulk@bast.com",
-            "password": "Teste123"
+            "email": "hulk@stark.com",
+            "password": "pwd123"
         },
         "task": {
-            "name": "Cuidar do Hulk Red"  
+            "name": "Construir uma maquina de radiação gama"
         }
     }
-
 }

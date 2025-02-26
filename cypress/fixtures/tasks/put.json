@@ -1,28 +1,26 @@
 {
     "update": {
-        "user": {            
-            "name": "Bill",
-            "email": "sorf@amil.com",
-            "password": "Abc123.."
+        "user": {
+            "name": "Steve Jobs",
+            "email": "jobs@next.com",
+            "password": "pwd123"
         },
         "task": {
-            "name": "Melhorar mas ainda",
+            "name": "Construir o novo SO da Next",
             "tags": [
-            "Test sorf",
-		    "visual",
-		    "Performa"
-	        ]
+                "x86",
+                "unix"
+            ]
         }
     },
     "not_found": {
         "user": {
-            "name": "Garo Wener",
-            "email": "garo@bast.com",
-            "password": "Abc123.."
+            "name": "Steve Woz",
+            "email": "woz@apple.com",
+            "password": "pwd123"
         },
         "task": {
-            "name": "God"  
+            "name": "Construir o primeiro Apple"
         }
     }
-
 }

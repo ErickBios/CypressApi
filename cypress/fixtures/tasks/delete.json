@@ -1,28 +1,27 @@
 {
     "remove": {
         "user": {
-            "name": "Peter Park",
-            "email": "park@stark.com",
-            "password": "Teste123"
+            "name": "Peter Parker",
+            "email": "parker@stark.com",
+            "password": "pwd123"
         },
         "task": {
-            "name": "Costruir o lança teia",
+            "name": "Construir o lança teias",
             "tags": [
-            "Reator",
-            "teia",
-            "Faz tudo"
-	        ]
+                "ark",
+                "nanotech",
+                "teias"
+            ]
         }
     },
     "not_found": {
         "user": {
-            "name": "Bruce Wener",
-            "email": "bruce@bast.com",
-            "password": "Teste123"
+            "name": "Bruce Wayne",
+            "email": "bruce@wayne.com",
+            "password": "pwd123"
         },
         "task": {
-            "name": "bat carpa"  
+            "name": "Design de uma nova armadura"
         }
     }
-
 }

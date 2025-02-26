@@ -1,4 +1,5 @@
 describe('PUT /tasks/:id/done', () => {
+
     beforeEach(function () {
         cy.fixture('tasks/put').then(function (tasks) {
             this.tasks = tasks
@@ -19,15 +20,13 @@ describe('PUT /tasks/:id/done', () => {
 
                         cy.putTaskDone(respTask.body._id, respUser.body.token)
                             .then(response => {
-                                expect(response.status).to.eq(204)//status 204 e sucesso sem conteúdo
+                                expect(response.status).to.eq(204)
                             })
-                        
 
                         cy.getUniqueTask(respTask.body._id, respUser.body.token)
                             .then(response => {
-                                expect(response.body.is_done).to.be.true 
+                                expect(response.body.is_done).to.be.true
                             })
-
                     })
             })
     })
@@ -45,24 +44,17 @@ describe('PUT /tasks/:id/done', () => {
                 cy.postTask(task, respUser.body.token)
                     .then(respTask => {
 
-                            
-                            cy.deleteTask(respTask.body._id, respUser.body.token)
+                        cy.deleteTask(respTask.body._id, respUser.body.token)
                             .then(response => {
-                                expect(response.status).to.eq(204) //status 204 e sucesso sem conteúdo
+                                expect(response.status).to.eq(204)
                             })
-                        
-                            cy.putTaskDone(respTask.body._id, respUser.body.token)
-                                 .then(response => {
+
+                        cy.putTaskDone(respTask.body._id, respUser.body.token)
+                            .then(response => {
                                 expect(response.status).to.eq(404)
                             })
-                       
-                        
 
                     })
-
             })
-
     })
-
-
 })

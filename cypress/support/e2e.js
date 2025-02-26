@@ -14,11 +14,11 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands/services'
 import './commands/amqp'
+import './commands/services'
 
 import 'cypress-plugin-api'
-
 require('@shelex/cypress-allure-plugin')
 
-// npx cypress run --env allure=true > camdo para gerar o relatorio
+// Alternatively you can use CommonJS syntax:
+// require('./commands')
