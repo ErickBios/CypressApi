@@ -31,10 +31,8 @@ describe('DELETE /tasks/:id', () => {
         cy.task('removeTask', task.name, user.email)
         cy.task('removeUser', user.email)
         cy.postUser(user)
-
         cy.postSession(user)
             .then(respUser => {
-
                 cy.postTask(task, respUser.body.token)
                     .then(respTask => {
                         cy.deleteTask(respTask.body._id, respUser.body.token)

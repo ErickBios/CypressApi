@@ -19,8 +19,7 @@ describe('POST /tasks', () => {
             const { user, task } = this.tasks.create;
         
             cy.task('removeUser', user.email);
-            cy.postUser(user);
-        
+            cy.postUser(user);        
             cy.postSession(user).then(userResp => {
                 cy.task('removeTask', task.name, user.email);
         

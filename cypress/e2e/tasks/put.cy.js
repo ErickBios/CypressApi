@@ -32,7 +32,6 @@ describe('PUT /tasks/:id/done', () => {
             })
     })
 
-
     it('task not found', function () {
         const { user, task } = this.tasks.not_found
 

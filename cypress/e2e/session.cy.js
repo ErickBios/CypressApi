@@ -18,8 +18,8 @@ describe('POST /sessions', () => {
             .then(response => {
                 expect(response.status).to.eq(200)
 
-                const { user, token } = response.body;
-            
+                const { user, token } = response.body;  
+                          
                 expect(user.name).to.eq(userData.name)
                 expect(user.email).to.eq(userData.email)
                 expect(token).not.to.be.empty
